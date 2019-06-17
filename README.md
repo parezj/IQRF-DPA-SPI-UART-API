@@ -1,7 +1,7 @@
 ### IQRF DPA over SPI/UART C API
 ```
-This is DPA over SPI/UART C API for easy integration of any IQRF *mesh network* (coordinator + nodes). 
-It requires *FreeRTOS*.
+This is DPA over SPI/UART C API for easy integration of any IQRF mesh network (coordinator + nodes). 
+FreeRTOS is required as so platform specific implementation of dma_handler + spi/uart_handler.
 ```
 IQRF is a platform for low power, low speed and low data volume wireless connectivity ranging tens and hundreds of meters (up to several kilometers in special cases or in networks) e.g. for telemetry, industrial control and automation of buildings and cities (street lights, parking etc.). It can be used with any electronic equipment, whenever there is a need of wireless transfer, e.g. remote control, monitoring of remotely acquired data or connection of more devices to a wireless network.
 
